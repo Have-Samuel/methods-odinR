@@ -68,3 +68,22 @@ y = 100
 sum = (x+y)
 puts "The Sum of #{x} and #{y} is #{sum}"
 
+# Chaining Methods
+word = ['k','a','b','a','r','e','e','b','e']
+print word.join('').capitalize.reverse.upcase.split('')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
