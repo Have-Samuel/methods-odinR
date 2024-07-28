@@ -96,3 +96,26 @@ puts add_two(5) # => 7
 # 2. add_one(5) is called, which returns 6
 # 3. add_one(6) is called, which returns 7
 # 4. 7 is printed to the screen
+
+def sum(num1, num2)
+  num1 + num2
+end
+
+puts sum(5,5)
+puts sum(6,6)
+
+# REFACTORING
+def sum(num, other_num)
+  num + other_num
+end
+
+def add_one(num)
+  sum(num, 1)
+end
+
+def add_two(num)
+  sum(num, 2)
+end
+
+puts add_one(3)
+puts add_two(3)
